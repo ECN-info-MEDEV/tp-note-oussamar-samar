@@ -10,10 +10,8 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <exec.mainClass>com.mycompany.tp.note.elbettal.elayed.TPNoteELBETTALELAYED</exec.mainClass>
-        
-  <sonar.organization>ecn-info-medev</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
-    </properties>
+        <sonar.organization>ecn-info-medev</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+   </properties>
     <name>tp-note-oussamar-samar</name>
 </project>
