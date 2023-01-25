@@ -3,15 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.tp.note.elbettal.elayed;
+package com.mycompany.tp.note.oussamar.samar;
 
 /**
  *
  * @author samar
  */
-public class TPNoteELBETTALELAYED {
+public class tpnoteoussamarsamar {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
+    
 }
