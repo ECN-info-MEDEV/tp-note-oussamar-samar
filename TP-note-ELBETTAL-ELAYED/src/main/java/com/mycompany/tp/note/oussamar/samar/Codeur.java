@@ -22,7 +22,8 @@ public class Codeur {
             String str = sc.nextLine();
 
             Pion P = new Pion(str);
-            ListPion.add(P);
+            ListPion.add(P); 
+            
 
         }
 
