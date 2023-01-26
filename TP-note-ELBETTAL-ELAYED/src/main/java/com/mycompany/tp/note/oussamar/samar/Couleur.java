@@ -4,10 +4,21 @@
  */
 package com.mycompany.tp.note.oussamar.samar;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author samar
  */
 public class Couleur {
+    ArrayList <String> ListCouleur=new ArrayList<>();
+    public Couleur(){
+        ListCouleur.add("J");
+        ListCouleur.add("R");
+        ListCouleur.add("B");
+        ListCouleur.add("V");
+        ListCouleur.add("B");
+        ListCouleur.add("N");
+}
     
 }

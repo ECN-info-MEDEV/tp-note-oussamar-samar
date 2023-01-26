@@ -4,6 +4,7 @@
  */
 package com.mycompany.tp.note.oussamar.samar;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -11,12 +12,19 @@ import java.util.Scanner;
  * @author samar
  */
 public class Codeur {
-    public void choix(){
+ArrayList <Pion> ListPion=new ArrayList<>();
+    public void choix() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("choisit 4 pions: J pour Jaune, R pour Rouge, B pour Bleu, V pour Vert");
-        String str = sc.nextLine();
-        if ( ){
-            
+        for (int i = 0; i < 4; i++) {
+            System.out.println("choisit 4 pions: J pour Jaune, R pour Rouge, B pour Bleu, V pour Vert");
+            String str = sc.nextLine();
+            Couleur Color = new Couleur();
+
+            if (str ==Color.ListCouleur.get(i)) {
+                Pion P=new Pion(str);
+                ListPion.add(P);
+            }
         }
+
     }
 }
