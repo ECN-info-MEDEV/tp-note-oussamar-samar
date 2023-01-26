@@ -11,12 +11,10 @@ import java.util.Scanner;
  *
  * @author samar
  */
-public class Codeur {
-
+public class Decodeur {
     private ArrayList<Pion> ListPion = new ArrayList<>();
-
-    public void choix() {
-        Scanner sc = new Scanner(System.in);
+    public void choix(){
+    Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 4; i++) {
             System.out.println("choisit 4 pions: J pour Jaune, R pour Rouge, B pour Bleu, V pour Vert");
             String str = sc.nextLine();
@@ -25,7 +23,5 @@ public class Codeur {
             ListPion.add(P); 
             
 
-        }
-
-    }
+        }}
 }
