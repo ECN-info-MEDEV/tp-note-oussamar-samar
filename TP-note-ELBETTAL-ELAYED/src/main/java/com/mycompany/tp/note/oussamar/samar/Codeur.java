@@ -12,18 +12,18 @@ import java.util.Scanner;
  * @author samar
  */
 public class Codeur {
-ArrayList <Pion> ListPion=new ArrayList<>();
+
+    ArrayList<Pion> ListPion = new ArrayList<>();
+
     public void choix() {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 4; i++) {
             System.out.println("choisit 4 pions: J pour Jaune, R pour Rouge, B pour Bleu, V pour Vert");
             String str = sc.nextLine();
-            Couleur Color = new Couleur();
 
-            if (str ==Color.ListCouleur.get(i)) {
-                Pion P=new Pion(str);
-                ListPion.add(P);
-            }
+            Pion P = new Pion(str);
+            ListPion.add(P);
+
         }
 
     }
