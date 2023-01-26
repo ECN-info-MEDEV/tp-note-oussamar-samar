@@ -12,7 +12,8 @@
         <exec.mainClass>com.mycompany.tp.note.elbettal.elayed.TPNoteELBETTALELAYED</exec.mainClass>
         <sonar.organization>ecn-info-medev</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.sources>tp-note-oussamar-samar/TP-note-ELBETTAL-ELAYED/target/classes/com/mycompany/tp/note/oussamar/samar</sonar.sources>
+        <sonar.sources>TP-note-ELBETTAL-ELAYED/target/classes/com/mycompany/tp/note/oussamar/samar</sonar.sources>
    </properties>
+    
     <name>tp-note-oussamar-samar</name>
 </project>
